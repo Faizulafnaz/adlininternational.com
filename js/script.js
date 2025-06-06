@@ -88,11 +88,13 @@
 				onTransitionStart: function (options) {
 					setTimeout(function () {
 						plugins.preloader.removeClass('loaded');
+
 					}, options.duration * .75);
 				},
 				onReady: function () {
 					plugins.preloader.addClass('loaded');
 					windowReady = true;
+
 				}
 			});
 		}

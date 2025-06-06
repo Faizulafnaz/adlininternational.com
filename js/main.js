@@ -15,6 +15,24 @@
     // Initiate the wowjs
     new WOW().init();
 
+    // loader.js
+
+    window.addEventListener("load", function () {
+    const preloader = document.getElementById("preloader");
+    if (preloader) {
+
+        setTimeout(() => {
+        preloader.classList.add("loaded");
+
+
+        setTimeout(() => {
+            preloader.remove();
+        }, 600);
+        }, 600); 
+    }
+    });
+
+
 
     // Sticky Navbar
     $(window).scroll(function () {

@@ -81,5 +81,55 @@ a {
   </div>
 </div>
 
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="text-light mb-4">Address</h3>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>
+                      ADLIN Trading & Contracting WLL,
+                      The Pearl Building,
+                      Office No: M05,
+                      Old Airport Road,
+                      Doha, Qatar,
+                      PO Box No: 9044</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+974 4143 6384, +974 3071 6000</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@adlininternational.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-body me-1" href="https://twitter.com/adlininternational?lang=en"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" href="https://www.facebook.com/public/adlininternational"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" href="https://www.facebook.com/public/adlininternational"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="text-light mb-4">Services</h3>
+                    <a class="btn btn-link" href="">Interior Fit-Out</a>
+                    <a class="btn btn-link" href="">MEP Services</a>
+                    <a class="btn btn-link" href="">Construction</a>
+                    <a class="btn btn-link" href="">Custom FF&E Solutions</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="text-light mb-4">Quick Links</h3>
+                    <a class="btn btn-link" href="about-us.html">About Us</a>
+                    <a class="btn btn-link" href="contact-us.html">Contact Us</a>
+                    <a class="btn btn-link" href="services.html">Our Services</a>
+                    <a class="btn btn-link" href="projects.html">Projects</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Adlin International</a>, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
 </body>
 </html>
