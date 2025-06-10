@@ -34,14 +34,15 @@
 
 
 
-    // Sticky Navbar
-    $(window).scroll(function () {
+    $(window).on('scroll load', function () {
         if ($(this).scrollTop() > 200) {
-            $('.sticky-top').addClass('shadow-sm scrolled').css('top', '0px');
+            $('.navbar').addClass('shadow-sm scrolled').css('transform', 'translateY(0)');
         } else {
-            $('.sticky-top').removeClass('shadow-sm scrolled').css('top', '-100px');
+            $('.navbar').removeClass('shadow-sm scrolled').css('transform', 'translateY(0)'); // ✅ Keep visible
         }
     });
+
+
     
     
     // Back to top button
