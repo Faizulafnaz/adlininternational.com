@@ -12283,9 +12283,9 @@ html .page .rd-navbar-fixed .rd-navbar-fixed--hidden {
 	color: #fff;
 }
 
-html.rd-navbar-fixed-linked .page {
+/* html.rd-navbar-fixed-linked .page {
 	padding-top: 56px;
-}
+} */
 
 .ios .rd-navbar-toggle {
 	position: relative;
